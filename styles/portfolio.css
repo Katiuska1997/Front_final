@@ -40,9 +40,10 @@
   }
   
   .hero {
-    background: var(--secondary-color);
+    background-image: url("https://oir.mobi/uploads/posts/2021-03/1616983878_18-p-fon-brizgi-kraski-21.png");
     text-align: center;
     padding: 80px 20px;
+ 
   }
   
   .hero p {
@@ -60,20 +61,24 @@
   }
   
   .content-container {
+   
     padding: 60px 20px;
   }
   
   .content h1 {
+   
     font-size: 64px;
     line-height: 80px;
   }
   
   .content h2 {
+    
     font-size: 18px;
     font-family: var(--default-font-family);
   }
   
   .content h3 {
+     
     font-size: 24px;
     line-height: 1.5;
   
@@ -85,17 +90,20 @@
   }
   
   .content {
-    margin: 30px;
+    
+    margin: 10px;
   }
   
   .btn-branding {
     background: var(--branding-color);
-    border-radius: 4px;
+    border-radius: 7px;
     color: white;
     text-decoration: none;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    
   }
   
   .btn-branding:hover {
@@ -118,10 +126,15 @@
   }
   
   .project-desciption {
+    text-align: center;
     padding: 10px 40px;
+    background-image: url("https://w-dog.ru/wallpapers/12/13/327074521021823.jpg");
+    
      
   }
-  
+  .project-desciption p{
+    color: black;
+  }
   .logo {
     max-height: 40px;
   }
@@ -154,11 +167,13 @@
   }
   
   footer {
+    background-image: url("https://oir.mobi/uploads/posts/2021-03/1616551303_21-p-fon-kraski-27.jpg");
     margin: 60px 0;
+    
   }
   
   footer .contact-box {
-    background: var(--secondary-color);
+  
     padding: 30px 120px;
     border-radius: 10px;
   }
@@ -179,18 +194,22 @@
   
   footer .social-links a {
     margin: 0 20px;
-    color: var(--branding-color);
-    background: var(--secondary-color);
-    padding: 10px 14px;
+    color: black;
+    background-image: url("https://oir.mobi/uploads/posts/2021-03/1616551303_21-p-fon-kraski-27.jpg");
+    padding: 30px 35px;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 28px;
     transition: all 100ms ease-in-out;
   }
   
   footer .social-links a:hover {
     color: white;
-    background: var(--branding-color);
+    background-image: url("https://oir.mobi/uploads/posts/2021-03/1616551303_21-p-fon-kraski-27.jpg");
   }
+  
+
+
+
   
   @media (max-width: 900px) {
     h1 {
@@ -214,13 +233,26 @@
     .project-desciption {
       padding: 0;
       text-align: center;
+      
     }
+     .social-links{
+       margin-top: 150px;
+     }
   }
   img{
       height: 700px;
   }
   .foto{
-      height: 500px ;
-      width: 430px;
+      height: 400px ;
+      width: 380px;
       margin: 10px 80px;
+      border-radius: 100px;
   }
+  .about{
+    background: url(https://freedesignfile.com/upload/2016/07/Colored-paints-drip-background-vector-04.jpg) ;
+    height: 500px;
+    }
+  .contact{
+    background: url( https://oir.mobi/uploads/posts/2021-03/thumbs/1616551283_42-p-fon-kraski-50.jpg)no-repeat;
+    background-size: cover;
+   }
